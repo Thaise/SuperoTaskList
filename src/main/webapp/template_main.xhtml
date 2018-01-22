@@ -1,0 +1,28 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<title>TaskList - Desafio Supero</title>
+	<h:outputStylesheet name="estilo.css" library="css" />
+	<ui:insert name="js" />
+</h:head>
+<h:body>
+	<div id="wrap">
+		<h:panelGroup id="topo" styleClass="inteira_horizontal" layout="block">
+		</h:panelGroup>
+		<div id="body">
+			<ui:insert name="conteudo" />
+		</div>
+		<h:panelGroup id="rodape" styleClass="inteira_horizontal"
+			layout="block">
+			<p>Fone: (48)98448-9413</p>
+			<p>
+				<a href="mailto:thaisefloripa@gmail.com">thaisefloripa@gmail.com</a>
+			</p>
+		</h:panelGroup>
+	</div>
+</h:body>
+</html>

@@ -1,0 +1,183 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	font-family: Calibri;
+}
+
+body {
+	margin: 0; /* altura do seu footer */
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+h2 {
+	color: #191970
+}
+
+#wrap {
+	min-height: 100%;
+	position: relative;
+}
+
+.inteira_horizontal {
+	border-bottom: red 2px solid;
+	background: #191970;
+	position: absolute;
+	width: 100%;
+}
+
+#topo {
+	top: 0;
+	height: 20px;
+}
+
+#body {
+	width: 900px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	padding-top: 25px;
+	position: relative;
+}
+
+#tabela_pesq_task_paginator_top {
+	display: none;
+}
+
+input[type=text], .ui-selectonemenu, .ui-inputtextarea {
+	font-size: 15px !important;
+	font-weight: normal !important;
+	box-shadow: none !important;
+	width: 200px;
+}
+
+.ui-selectonemenu {
+	width: 200px !important;
+	background: white !important;
+	padding: 4px !important;
+}
+
+.ui-selectonemenu label {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.bloco {
+	margin-bottom: 10px;
+}
+
+.cadastro input[type=text], .cadastro .ui-selectonemenu, .cadastro .ui-inputtextarea
+	{
+	margin-top: 3px;
+	display: block !important;
+	margin-bottom: 10px;
+}
+
+.cadastro input[type=submit] {
+	margin-top: 10px;
+}
+
+.campos_filtro {
+	margin-top: 10px;
+}
+
+.filtro {
+	margin-right: 5px;
+	display: inline;
+}
+
+label {
+	font-size: 15px !important;
+	font-weight: bold;
+}
+
+button, input[type=submit] {
+	background: #191970 !important;
+	color: white !important;
+	border: none !important;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+.coluna_opcoes a {
+	margin-right: 10px;
+}
+
+.ui-selectonemenu-items {
+	font-size: 14px !important;
+}
+
+.botao_filtrar {
+	margin-left: 10px;
+}
+
+.botao_cadastrar {
+	margin-top: 10px;
+}
+
+.botoes_dialog {
+	margin-top: 25px
+}
+
+.botoes_dialog button {
+	margin-right: 10px
+}
+
+.botao_cancelar {
+	float: right;
+}
+
+table {
+	margin-top: 20px;
+}
+
+table th {
+	background: #191970 !important;
+	color: white !important;
+	border-right: 1px solid white !important;
+	border-top: none !important;
+	text-decoration: none;
+	font-weight: normal !important;
+	padding: 5px !important;
+}
+
+table td {
+	padding: 10px 5px !important;
+}
+
+.texto_centro {
+	text-align: center;
+}
+
+.status {
+	font-weight: bold;
+}
+
+.status-EM_ABERTO {
+	color: red;
+}
+
+.status-CONCLUIDA {
+	color: green;
+}
+
+#rodape {
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 80px;
+}
+
+#rodape a {
+	color: white;
+}

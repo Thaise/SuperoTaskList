@@ -1,0 +1,14 @@
+br\com\supero\desafio\modelo\dao\entidades\Status.class
+br\com\supero\desafio\controle\converter\StatusConverter.class
+br\com\supero\desafio\modelo\dao\AbstractModel.class
+br\com\supero\desafio\controle\AbstractManagedBean.class
+br\com\supero\desafio\controle\util\MensagemUtils.class
+br\com\supero\desafio\controle\TaskManagedBeansUtils.class
+br\com\supero\desafio\modelo\dao\entidades\conexao\ProdutorEntityManager.class
+br\com\supero\desafio\modelo\dao\entidades\Task.class
+br\com\supero\desafio\modelo\dao\TaskFiltro.class
+br\com\supero\desafio\controle\relatorio\LazyTaskDataModel.class
+br\com\supero\desafio\controle\TaskManagedBean.class
+br\com\supero\desafio\controle\relatorio\TaskReportManagedBean.class
+br\com\supero\desafio\modelo\dao\entidades\Entidade.class
+br\com\supero\desafio\modelo\dao\TaskModel.class
